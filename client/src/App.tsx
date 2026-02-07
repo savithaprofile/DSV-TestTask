@@ -40,8 +40,8 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg" sx={{ py: 4 }}>
-        <Typography variant="h3" component="h1" align="center" gutterBottom sx={{ fontWeight: 'bold', mb: 4, color: 'primary.main' }}>
-          DSV React CRUD
+        <Typography variant="h3" component="h1" align="center" gutterBottom sx={{ mt: 4, mb: 4, color: 'primary.main' }}>
+          DSV TEST TASK(CRUD)
         </Typography>
 
         {loading && <Box sx={{ display: 'flex', justifyContent: 'center', my: 4 }}><Loader /></Box>}
