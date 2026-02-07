@@ -1,8 +1,8 @@
 import axios from "axios";
 import type { User } from "../types/user";
 
-const API_URL = "http://localhost:5005/api/users";
-
+// const API_URL = "http://localhost:5005/api/users";
+const API_URL = import.meta.env.VITE_API_URL || "https://dsv-testtask.onrender.com/api/users";
 /**
  * Get all users
  */
